@@ -11,7 +11,8 @@
     "kmd": "2.8.0",
     "smi": "5.0.1",
     "flash": "3.6.5",
-    "topology": "1.2.19"
+    "topology": "1.2.19",
+    "metalium": "0.69.0~ubuntu24.04"
   },
   "python_packages": {
     "tt-smi": "5.2.0",
@@ -19,5 +20,21 @@
     "textual": "0.59.0",
     "elasticsearch": "8.11.0",
     "tt-burnin": "0.4.0"
+  },
+  "git_components": {
+    "tt-studio": {
+      "url": "https://github.com/tenstorrent/tt-studio.git",
+      "version": "a6d347af3980540bb16d10ec473a6b09ce6f2138"
+    },
+    "tt-inference-server": {
+      "url": "https://github.com/tenstorrent/tt-inference-server.git",
+      "version": "cfa35731abe68484077d7b6337e7a11c4b2bdaa6"
+    }
+  },
+  "container_components": {
+    "tt-metalium-models": {
+      "image_url": "ghcr.io/tenstorrent/tt-metal/tt-metalium-ubuntu-22.04-release-models-amd64",
+      "image_tag": "sha256:02151bea82bc345afe6171b72d9232332d90699f550e6c5b35a645fa19569b3e"
+    }
   }
 }
