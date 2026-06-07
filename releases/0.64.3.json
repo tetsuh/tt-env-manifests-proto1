@@ -1,0 +1,11 @@
+{
+  "release": "0.64.3",
+  "description": "Auto-generated from tt-metal v0.64.3 release (Nov 14, 2025). Component versions verified by tt-metal release table.",
+  "components": {
+    "tt-metal": "v0.64.3", "tt-kmd": "2.4.1", "firmware": "18.12.0", "tt-smi": "3.0.32"
+  },
+  "system_packages": {},
+  "python_packages": {},
+  "git_components": {},
+  "container_components": {}
+}
