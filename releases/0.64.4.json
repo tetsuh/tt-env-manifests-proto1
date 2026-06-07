@@ -2,10 +2,25 @@
   "release": "0.64.4",
   "description": "Auto-generated from tt-metal v0.64.4 release (Nov 24, 2025). Component versions verified by tt-metal release table.",
   "components": {
-    "tt-metal": "v0.64.4", "tt-kmd": "2.4.1", "firmware": "18.12.0", "tt-smi": "3.0.32"
+    "tt-metal": "v0.64.4",
+    "tt-kmd": "2.4.1",
+    "firmware": "18.12.0",
+    "tt-smi": "3.0.32"
   },
   "system_packages": {},
   "python_packages": {},
   "git_components": {},
-  "container_components": {}
+  "container_components": {
+    "tt-metalium-ubuntu22": {
+      "image_url": "ghcr.io/tenstorrent/tt-metal/tt-metalium-ubuntu-22.04-release-amd64",
+      "image_tag": "sha256:e358d896379d6f8946f3e24ee74c56e0227aa616700aa07e74ef0e35fec79695"
+    },
+    "tt-metalium": {
+      "ref": "tt-metalium-ubuntu22"
+    },
+    "tt-metalium-models": {
+      "image_url": "ghcr.io/tenstorrent/tt-metal/tt-metalium-ubuntu-22.04-release-models-amd64",
+      "image_tag": "sha256:0dfa057193dd30b88558274d0c421ffc96ade36c138e4e37cf4c22000ff62cb5"
+    }
+  }
 }
