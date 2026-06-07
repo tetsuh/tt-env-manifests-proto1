@@ -2,7 +2,10 @@
   "release": "0.60.1",
   "description": "Auto-generated from tt-metal v0.60.1 release (Jul 22, 2025). Component versions verified by tt-metal release table.",
   "components": {
-    "tt-metal": "v0.60.1", "tt-kmd": "2.0.0", "firmware": "18.6.0", "tt-smi": "3.0.20"
+    "tt-metal": "v0.60.1",
+    "tt-kmd": "2.0.0",
+    "firmware": "18.6.0",
+    "tt-smi": "3.0.20"
   },
   "system_packages": {},
   "python_packages": {},
